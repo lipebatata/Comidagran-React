@@ -45,6 +45,7 @@ class Publicacoes extends React.Component {
                     post: 'https://i.ytimg.com/vi/YFOhH_3Zfs8/maxresdefault.jpg'
 
                 },
+
                 {
                     fotodoU:'https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/01/Featured-Image-Dio-Brando-Cropped.jpg',
                     nomedoU:'Dio Brando',
@@ -60,7 +61,7 @@ class Publicacoes extends React.Component {
             {
                 this.state.posts.map ((post)=> { 
                     return(
-                        <Publicacao nomedoU={post.nomedoU} fotodoU={post.fotodoU} post={post.post}/>
+                        <Publicacao nomedoU={post.nomedoU} fotodoU={post.fotodoU} post={post.post}/>  
                     )
                 })
             }
